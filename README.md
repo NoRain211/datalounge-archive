@@ -28,19 +28,3 @@ The database volume set includes:
 - 20,904 expected HTTP 404 responses for deleted or unavailable pages
 - 836,100 shutdown splash responses replaced with locally rendered archived threads
 
-The archive is release-only to avoid putting multi-gigabyte generated data in
-normal Git history.
-
-## Verification
-
-Verify any downloaded release volumes against `SHA256SUMS.txt`. On Windows
-with 7-Zip installed, download every part of a set into the same folder and
-extract with:
-
-```powershell
-7z x datalounge-site-v2.7z.001
-7z x datalounge-raw.7z.001
-7z x datalounge-databases.7z.001
-```
-
-On Linux or macOS, install `7zz` and use the same commands.
