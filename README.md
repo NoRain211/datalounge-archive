@@ -9,7 +9,7 @@ This repository contains the archive manifest and verification checksums. The
 GitHub release contains every archived byte, in split 7z volumes:
 
 - `datalounge-raw.7z.*`: exact compressed post-feed batches
-- `datalounge-site.7z.*`: exact captured HTML pages and hosted assets
+- `datalounge-site-v2.7z.*`: saved HTML/assets mirror with corrected thread pages
 - `datalounge-databases.7z.*`: preservation manifests and searchable mirror
 
 The database volume set includes:
@@ -26,6 +26,7 @@ The database volume set includes:
 - 4,819,248,552 bytes of compressed raw post batches
 - 8,386,895,412 bytes of successfully saved page/asset content
 - 20,904 expected HTTP 404 responses for deleted or unavailable pages
+- 836,100 shutdown splash responses replaced with locally rendered archived threads
 
 The archive is release-only to avoid putting multi-gigabyte generated data in
 normal Git history.
@@ -37,7 +38,7 @@ with 7-Zip installed, download every part of a set into the same folder and
 extract with:
 
 ```powershell
-7z x datalounge-site.7z.001
+7z x datalounge-site-v2.7z.001
 7z x datalounge-raw.7z.001
 7z x datalounge-databases.7z.001
 ```

@@ -9,6 +9,8 @@
   "raw_post_batch_count": 7440,
   "raw_post_compressed_bytes": 4819248552,
   "page_asset_saved_bytes": 8386895412,
+  "site_mirror_revision": 2,
+  "site_mirror_bytes": 10642032020,
   "release_volumes": [
     {
       "name": "datalounge-databases.7z.001",
@@ -43,24 +45,28 @@
       "bytes": 834741567
     },
     {
-      "name": "datalounge-site.7z.001",
+      "name": "datalounge-site-v2.7z.001",
       "bytes": 1992294400
     },
     {
-      "name": "datalounge-site.7z.002",
+      "name": "datalounge-site-v2.7z.002",
       "bytes": 1992294400
     },
     {
-      "name": "datalounge-site.7z.003",
+      "name": "datalounge-site-v2.7z.003",
       "bytes": 1992294400
     },
     {
-      "name": "datalounge-site.7z.004",
+      "name": "datalounge-site-v2.7z.004",
       "bytes": 1992294400
     },
     {
-      "name": "datalounge-site.7z.005",
-      "bytes": 428404368
+      "name": "datalounge-site-v2.7z.005",
+      "bytes": 1992294400
+    },
+    {
+      "name": "datalounge-site-v2.7z.006",
+      "bytes": 695074968
     }
   ]
 }
