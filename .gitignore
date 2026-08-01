@@ -6,7 +6,7 @@ assets/
 # Unpacked archive copies; the canonical download is the GitHub release.
 raw/
 site/
-ia-release/
+ia-release*/
 
 # Local logs and caches
 __pycache__/
