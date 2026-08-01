@@ -1,0 +1,13 @@
+# Release packaging artifacts
+assets/
+*.7z.*
+*.zip.*
+
+# Unpacked archive copies; the canonical download is the GitHub release.
+raw/
+site/
+
+# Local logs and caches
+__pycache__/
+*.log
+*.tmp
